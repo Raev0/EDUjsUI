@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sys_widget</class>
+ <widget class="Form" name="sys_widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>system</string>
+  </property>
+  <property name="source">
+   <string>:/pixmaps/sys_background.png</string>
+  </property>
+  <property name="fastShow">
+   <bool>true</bool>
+  </property>
+  <widget class="SysCom" name="sysCom0">
+   <property name="geometry" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>0</width>
+     <height>0</height>
+    </rect>
+   </property>
+   <property name="font" stdset="0">
+    <font/>
+   </property>
+   <property name="protocol">
+    <enum>SysCom::CTP</enum>
+   </property>
+   <property name="rate">
+    <string>115200</string>
+   </property>
+   <property name="ctpReply" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="threshold">
+    <number>1</number>
+   </property>
+   <property name="headEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="head">
+    <string>0</string>
+   </property>
+   <property name="endEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="end">
+    <string>0</string>
+   </property>
+   <property name="action">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SysBacklight" name="sysBacklight">
+   <property name="geometry" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>0</width>
+     <height>0</height>
+    </rect>
+   </property>
+   <property name="font" stdset="0">
+    <font/>
+   </property>
+   <property name="brightness">
+    <number>8</number>
+   </property>
+  </widget>
+  <widget class="SysBeep" name="sysBuzzer">
+   <property name="geometry" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>0</width>
+     <height>0</height>
+    </rect>
+   </property>
+   <property name="font" stdset="0">
+    <font/>
+   </property>
+   <property name="duration">
+    <number>100</number>
+   </property>
+   <property name="interval">
+    <number>200</number>
+   </property>
+  </widget>
+  <widget class="SysSoftKeypad" name="sysSoftKeypad">
+   <property name="geometry" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>0</width>
+     <height>0</height>
+    </rect>
+   </property>
+   <property name="font" stdset="0">
+    <font/>
+   </property>
+   <property name="defaultType">
+    <string>number</string>
+   </property>
+   <property name="chineseInput" stdset="0">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="SysTouch" name="sysTouch">
+   <property name="geometry" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>0</width>
+     <height>0</height>
+    </rect>
+   </property>
+   <property name="font" stdset="0">
+    <font/>
+   </property>
+   <property name="idleTimeout">
+    <number>10000</number>
+   </property>
+  </widget>
+  <widget class="SysManager" name="sysManager">
+   <property name="geometry" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>0</width>
+     <height>0</height>
+    </rect>
+   </property>
+   <property name="font" stdset="0">
+    <font/>
+   </property>
+   <property name="debugMode">
+    <bool>true</bool>
+   </property>
+   <property name="cursorVisibility">
+    <bool>false</bool>
+   </property>
+   <property name="formAnimation" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="SysVariable" name="sysVariable">
+   <property name="geometry" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>0</width>
+     <height>0</height>
+    </rect>
+   </property>
+   <property name="font" stdset="0">
+    <font/>
+   </property>
+  </widget>
+  <widget class="SysHardKeypad" name="sysHardKeypad">
+   <property name="geometry" stdset="0">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>0</width>
+     <height>0</height>
+    </rect>
+   </property>
+   <property name="font" stdset="0">
+    <font/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
